@@ -5,9 +5,13 @@ import Resolver from 'ember-resolver';
 
 const modulePrefix = 'engine1';
 
-export default class YourEngine extends Engine {
+export default class EngineOne extends Engine {
   modulePrefix = modulePrefix;
   Resolver = Resolver;
+  dependencies = {
+    externalRoutes: ['application', 'content'],
+    // services: ['api'],
+  };
 }
 
-loadInitializers(YourEngine, modulePrefix);
+loadInitializers(EngineOne, modulePrefix);

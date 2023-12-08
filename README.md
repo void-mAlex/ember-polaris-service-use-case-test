@@ -3,3 +3,6 @@ pnpm start
 
 visit http://localhost:4200/
 to start exporing
+
+WIP currently focusing on injecting services into engine1 package
+see packages/engine1/addon/routers/application.js

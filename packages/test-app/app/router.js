@@ -7,4 +7,7 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function () {
+  this.mount('engine1', { resetNamespace: true, path: '/app1' });
+  this.mount('engine2', { path: '/app2' });
+  this.route('content');
 });

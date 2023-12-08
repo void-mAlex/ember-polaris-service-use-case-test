@@ -1,1 +1,15 @@
 <h3>Engine 1!</h3>
+Api service name {{@model.apiName}}
+<br>
+Shared api service name {{@model.sharedName}}
+<br>
+Internal api service name {{@model.internalApi}}
+<br>
+is it the same service instance <b>
+{{@model.strictlyEquals}}
+</b>
+<br>
+<LinkTo @route="application">Engine Home</LinkTo>
+<br>
+{{!-- <LinkTo @route="new">Engine New</LinkTo> --}}
+<LinkToExternal @route="application">Test App</LinkToExternal>
