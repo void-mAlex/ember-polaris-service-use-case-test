@@ -1,0 +1,6 @@
++ packages:
+  + 'packages/test-app'
+  + 'packages/engine1'
+  + 'packages/engine2'
+  + 'packages/shared-addon'
+  + 'packages/other-addon'
